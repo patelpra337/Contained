@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  InfoViewController.swift
 //  Contained(iOSPT4)
 //
 //  Created by patelpra on 12/4/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class InfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +16,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func doneButtonTapped(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
 }
-

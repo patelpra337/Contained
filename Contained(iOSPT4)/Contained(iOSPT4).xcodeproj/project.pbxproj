@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		AB5E089D23989B8600593046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E089C23989B8600593046 /* AppDelegate.swift */; };
 		AB5E089F23989B8600593046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E089E23989B8600593046 /* SceneDelegate.swift */; };
-		AB5E08A123989B8600593046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E08A023989B8600593046 /* ViewController.swift */; };
+		AB5E08A123989B8600593046 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E08A023989B8600593046 /* GameViewController.swift */; };
 		AB5E08A423989B8600593046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08A223989B8600593046 /* Main.storyboard */; };
 		AB5E08A623989B8A00593046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08A523989B8A00593046 /* Assets.xcassets */; };
 		AB5E08A923989B8A00593046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08A723989B8A00593046 /* LaunchScreen.storyboard */; };
 		AB5E08B123989FE700593046 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08B023989FE700593046 /* Info.storyboard */; };
+		AB5E08B32398A50600593046 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E08B22398A50600593046 /* InfoViewController.swift */; };
+		AB5E08B52398A52800593046 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E08B42398A52800593046 /* SettingsViewController.swift */; };
+		AB5E08B72398B8AA00593046 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E08B62398B8AA00593046 /* CustomScene.swift */; };
+		AB5E08B92398B92600593046 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E08B82398B92600593046 /* Settings.swift */; };
+		AB5E08BB2398B99500593046 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E08BA2398B99500593046 /* SKSpriteNode+Utility.swift */; };
+		AB5E08BD2398B9F600593046 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08BC2398B9F500593046 /* Crab.xcassets */; };
+		AB5E08C02398BA1700593046 /* Art in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08BE2398BA1700593046 /* Art */; };
+		AB5E08C12398BA1700593046 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08BF2398BA1700593046 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB5E089923989B8600593046 /* Contained(iOSPT4).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contained(iOSPT4).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5E089C23989B8600593046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5E089E23989B8600593046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB5E08A023989B8600593046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB5E08A023989B8600593046 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AB5E08A323989B8600593046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB5E08A523989B8A00593046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5E08A823989B8A00593046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5E08AA23989B8A00593046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5E08B023989FE700593046 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
+		AB5E08B22398A50600593046 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		AB5E08B42398A52800593046 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AB5E08B62398B8AA00593046 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
+		AB5E08B82398B92600593046 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AB5E08BA2398B99500593046 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Utility.swift"; sourceTree = SOURCE_ROOT; };
+		AB5E08BC2398B9F500593046 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Crab.xcassets; sourceTree = SOURCE_ROOT; };
+		AB5E08BE2398BA1700593046 /* Art */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Art; sourceTree = SOURCE_ROOT; };
+		AB5E08BF2398BA1700593046 /* Images */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Images; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +76,15 @@
 			children = (
 				AB5E089C23989B8600593046 /* AppDelegate.swift */,
 				AB5E089E23989B8600593046 /* SceneDelegate.swift */,
-				AB5E08A023989B8600593046 /* ViewController.swift */,
+				AB5E08A023989B8600593046 /* GameViewController.swift */,
+				AB5E08B62398B8AA00593046 /* CustomScene.swift */,
+				AB5E08BE2398BA1700593046 /* Art */,
+				AB5E08BF2398BA1700593046 /* Images */,
+				AB5E08BC2398B9F500593046 /* Crab.xcassets */,
+				AB5E08B82398B92600593046 /* Settings.swift */,
+				AB5E08BA2398B99500593046 /* SKSpriteNode+Utility.swift */,
+				AB5E08B22398A50600593046 /* InfoViewController.swift */,
+				AB5E08B42398A52800593046 /* SettingsViewController.swift */,
 				AB5E08A223989B8600593046 /* Main.storyboard */,
 				AB5E08B023989FE700593046 /* Info.storyboard */,
 				AB5E08A523989B8A00593046 /* Assets.xcassets */,
@@ -128,10 +152,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5E08C02398BA1700593046 /* Art in Resources */,
 				AB5E08A923989B8A00593046 /* LaunchScreen.storyboard in Resources */,
+				AB5E08C12398BA1700593046 /* Images in Resources */,
 				AB5E08A623989B8A00593046 /* Assets.xcassets in Resources */,
 				AB5E08B123989FE700593046 /* Info.storyboard in Resources */,
 				AB5E08A423989B8600593046 /* Main.storyboard in Resources */,
+				AB5E08BD2398B9F600593046 /* Crab.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5E08A123989B8600593046 /* ViewController.swift in Sources */,
+				AB5E08A123989B8600593046 /* GameViewController.swift in Sources */,
 				AB5E089D23989B8600593046 /* AppDelegate.swift in Sources */,
+				AB5E08B32398A50600593046 /* InfoViewController.swift in Sources */,
+				AB5E08B52398A52800593046 /* SettingsViewController.swift in Sources */,
+				AB5E08B92398B92600593046 /* Settings.swift in Sources */,
 				AB5E089F23989B8600593046 /* SceneDelegate.swift in Sources */,
+				AB5E08B72398B8AA00593046 /* CustomScene.swift in Sources */,
+				AB5E08BB2398B99500593046 /* SKSpriteNode+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
