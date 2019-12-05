@@ -13,6 +13,7 @@
 		AB5E08A423989B8600593046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08A223989B8600593046 /* Main.storyboard */; };
 		AB5E08A623989B8A00593046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08A523989B8A00593046 /* Assets.xcassets */; };
 		AB5E08A923989B8A00593046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08A723989B8A00593046 /* LaunchScreen.storyboard */; };
+		AB5E08B123989FE700593046 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5E08B023989FE700593046 /* Info.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AB5E08A523989B8A00593046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5E08A823989B8A00593046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5E08AA23989B8A00593046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5E08B023989FE700593046 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AB5E089E23989B8600593046 /* SceneDelegate.swift */,
 				AB5E08A023989B8600593046 /* ViewController.swift */,
 				AB5E08A223989B8600593046 /* Main.storyboard */,
+				AB5E08B023989FE700593046 /* Info.storyboard */,
 				AB5E08A523989B8A00593046 /* Assets.xcassets */,
 				AB5E08A723989B8A00593046 /* LaunchScreen.storyboard */,
 				AB5E08AA23989B8A00593046 /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				AB5E08A923989B8A00593046 /* LaunchScreen.storyboard in Resources */,
 				AB5E08A623989B8A00593046 /* Assets.xcassets in Resources */,
+				AB5E08B123989FE700593046 /* Info.storyboard in Resources */,
 				AB5E08A423989B8600593046 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
