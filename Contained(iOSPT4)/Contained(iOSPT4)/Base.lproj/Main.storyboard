@@ -64,6 +64,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tc3-EU-9kz">
                                                 <rect key="frame" x="65" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleRoll:" destination="GL3-h9-vbz" eventType="valueChanged" id="J8A-NG-hK0"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -78,6 +81,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPa-w0-SIC">
                                                 <rect key="frame" x="64.5" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleZoom:" destination="GL3-h9-vbz" eventType="valueChanged" id="nhr-BH-F0a"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -103,6 +109,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bvX-6B-Awi" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Pi-q6-fHA">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
